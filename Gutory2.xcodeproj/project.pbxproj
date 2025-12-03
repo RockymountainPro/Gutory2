@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F404FF312EC9A46D002F2F99 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = F404FF302EC9A46D002F2F99 /* Auth */; };
+		F404FF332EC9A46D002F2F99 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = F404FF322EC9A46D002F2F99 /* Functions */; };
+		F404FF352EC9A46D002F2F99 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = F404FF342EC9A46D002F2F99 /* PostgREST */; };
+		F404FF372EC9A46D002F2F99 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = F404FF362EC9A46D002F2F99 /* Realtime */; };
+		F404FF392EC9A46D002F2F99 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = F404FF382EC9A46D002F2F99 /* Storage */; };
+		F404FF3D2EC9A6CF002F2F99 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = F404FF3C2EC9A6CF002F2F99 /* Supabase */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F404FF112EC982B4002F2F99 /* Gutory2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gutory2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +32,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F404FF352EC9A46D002F2F99 /* PostgREST in Frameworks */,
+				F404FF332EC9A46D002F2F99 /* Functions in Frameworks */,
+				F404FF3D2EC9A6CF002F2F99 /* Supabase in Frameworks */,
+				F404FF312EC9A46D002F2F99 /* Auth in Frameworks */,
+				F404FF392EC9A46D002F2F99 /* Storage in Frameworks */,
+				F404FF372EC9A46D002F2F99 /* Realtime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,12 @@
 			);
 			name = Gutory2;
 			packageProductDependencies = (
+				F404FF302EC9A46D002F2F99 /* Auth */,
+				F404FF322EC9A46D002F2F99 /* Functions */,
+				F404FF342EC9A46D002F2F99 /* PostgREST */,
+				F404FF362EC9A46D002F2F99 /* Realtime */,
+				F404FF382EC9A46D002F2F99 /* Storage */,
+				F404FF3C2EC9A6CF002F2F99 /* Supabase */,
 			);
 			productName = Gutory2;
 			productReference = F404FF112EC982B4002F2F99 /* Gutory2.app */;
@@ -94,6 +115,9 @@
 			);
 			mainGroup = F404FF082EC982B4002F2F99;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F404FF2F2EC9A46D002F2F99 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F404FF122EC982B4002F2F99 /* Products */;
 			projectDirPath = "";
@@ -250,12 +274,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = BV5D8BWMH6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Gutory;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Gutory uses your microphone to capture meal notes via voice.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Gutory uses speech recognition so you can dictate your meals instead of typing.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -281,12 +309,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = BV5D8BWMH6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Gutory;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Gutory uses your microphone to capture meal notes via voice.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Gutory uses speech recognition so you can dictate your meals instead of typing.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,6 +360,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F404FF2F2EC9A46D002F2F99 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F404FF302EC9A46D002F2F99 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F404FF2F2EC9A46D002F2F99 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		F404FF322EC9A46D002F2F99 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F404FF2F2EC9A46D002F2F99 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		F404FF342EC9A46D002F2F99 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F404FF2F2EC9A46D002F2F99 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		F404FF362EC9A46D002F2F99 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F404FF2F2EC9A46D002F2F99 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		F404FF382EC9A46D002F2F99 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F404FF2F2EC9A46D002F2F99 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		F404FF3C2EC9A6CF002F2F99 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F404FF2F2EC9A46D002F2F99 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F404FF092EC982B4002F2F99 /* Project object */;
 }
